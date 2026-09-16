@@ -1,0 +1,24 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-16T04:38:59Z",
+  "project_root": "/tmp/push_lazyweb_20260916_013256",
+  "files": 36,
+  "symbols": 2,
+  "imports": 154,
+  "resolved_imports": 62,
+  "security_findings": 0,
+  "languages": {
+    "tsx": 31,
+    "py": 1,
+    "ts": 3,
+    "sh": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
