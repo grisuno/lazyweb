@@ -1,0 +1,912 @@
+{
+  "concepts": [
+    {
+      "name": "tsx",
+      "files": [
+        "App.tsx",
+        "components/BlogPostCard.tsx",
+        "components/ContactForm.tsx",
+        "components/Footer.tsx",
+        "components/HeroSection.tsx",
+        "components/Navbar.tsx",
+        "components/SectionTitle.tsx",
+        "components/ServiceCard.tsx",
+        "components/TeamMemberCard.tsx",
+        "components/TestimonialCard.tsx",
+        "components/icons/BriefcaseIcon.tsx",
+        "components/icons/ChevronRightIcon.tsx",
+        "components/icons/CodeIcon.tsx",
+        "components/icons/LinkedInIcon.tsx",
+        "components/icons/LockIcon.tsx",
+        "components/icons/MenuIcon.tsx",
+        "components/icons/NetworkIcon.tsx",
+        "components/icons/PuzzlePieceIcon.tsx",
+        "components/icons/ShieldIcon.tsx",
+        "components/icons/TargetIcon.tsx",
+        "components/icons/TwitterIcon.tsx",
+        "components/icons/UserGroupIcon.tsx",
+        "components/icons/XIcon.tsx",
+        "components/ui/Button.tsx",
+        "index.tsx",
+        "pages/AboutPage.tsx",
+        "pages/BlogPage.tsx",
+        "pages/ContactPage.tsx",
+        "pages/FrameworkPage.tsx",
+        "pages/HomePage.tsx",
+        "pages/ServicesPage.tsx"
+      ],
+      "mentions": 62,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "components",
+      "files": [
+        "components/BlogPostCard.tsx",
+        "components/ContactForm.tsx",
+        "components/Footer.tsx",
+        "components/HeroSection.tsx",
+        "components/Navbar.tsx",
+        "components/SectionTitle.tsx",
+        "components/ServiceCard.tsx",
+        "components/TeamMemberCard.tsx",
+        "components/TestimonialCard.tsx",
+        "components/icons/BriefcaseIcon.tsx",
+        "components/icons/ChevronRightIcon.tsx",
+        "components/icons/CodeIcon.tsx",
+        "components/icons/LinkedInIcon.tsx",
+        "components/icons/LockIcon.tsx",
+        "components/icons/MenuIcon.tsx",
+        "components/icons/NetworkIcon.tsx",
+        "components/icons/PuzzlePieceIcon.tsx",
+        "components/icons/ShieldIcon.tsx",
+        "components/icons/TargetIcon.tsx",
+        "components/icons/TwitterIcon.tsx",
+        "components/icons/UserGroupIcon.tsx",
+        "components/icons/XIcon.tsx",
+        "components/ui/Button.tsx"
+      ],
+      "mentions": 23,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "icons",
+      "files": [
+        "components/icons/BriefcaseIcon.tsx",
+        "components/icons/ChevronRightIcon.tsx",
+        "components/icons/CodeIcon.tsx",
+        "components/icons/LinkedInIcon.tsx",
+        "components/icons/LockIcon.tsx",
+        "components/icons/MenuIcon.tsx",
+        "components/icons/NetworkIcon.tsx",
+        "components/icons/PuzzlePieceIcon.tsx",
+        "components/icons/ShieldIcon.tsx",
+        "components/icons/TargetIcon.tsx",
+        "components/icons/TwitterIcon.tsx",
+        "components/icons/UserGroupIcon.tsx",
+        "components/icons/XIcon.tsx"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "icon",
+      "files": [
+        "components/icons/BriefcaseIcon.tsx",
+        "components/icons/ChevronRightIcon.tsx",
+        "components/icons/CodeIcon.tsx",
+        "components/icons/LinkedInIcon.tsx",
+        "components/icons/LockIcon.tsx",
+        "components/icons/MenuIcon.tsx",
+        "components/icons/NetworkIcon.tsx",
+        "components/icons/PuzzlePieceIcon.tsx",
+        "components/icons/ShieldIcon.tsx",
+        "components/icons/TargetIcon.tsx",
+        "components/icons/TwitterIcon.tsx",
+        "components/icons/UserGroupIcon.tsx"
+      ],
+      "mentions": 24,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "page",
+      "files": [
+        "pages/AboutPage.tsx",
+        "pages/BlogPage.tsx",
+        "pages/ContactPage.tsx",
+        "pages/FrameworkPage.tsx",
+        "pages/HomePage.tsx",
+        "pages/ServicesPage.tsx"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "pages",
+      "files": [
+        "pages/AboutPage.tsx",
+        "pages/BlogPage.tsx",
+        "pages/ContactPage.tsx",
+        "pages/FrameworkPage.tsx",
+        "pages/HomePage.tsx",
+        "pages/ServicesPage.tsx"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "card",
+      "files": [
+        "components/BlogPostCard.tsx",
+        "components/ServiceCard.tsx",
+        "components/TeamMemberCard.tsx",
+        "components/TestimonialCard.tsx"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "app",
+      "files": [
+        "App.tsx",
+        "app.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "blog",
+      "files": [
+        "components/BlogPostCard.tsx",
+        "pages/BlogPage.tsx"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "contact",
+      "files": [
+        "components/ContactForm.tsx",
+        "pages/ContactPage.tsx"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "section",
+      "files": [
+        "components/HeroSection.tsx",
+        "components/SectionTitle.tsx"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "tsx",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->components/Footer.tsx",
+        "App.tsx->components/Navbar.tsx",
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/ContactForm.tsx->components/ui/Button.tsx",
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/HeroSection.tsx->components/ui/Button.tsx",
+        "components/Navbar.tsx->components/icons/MenuIcon.tsx",
+        "components/Navbar.tsx->components/icons/ShieldIcon.tsx",
+        "components/Navbar.tsx->components/icons/XIcon.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 0.68,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/SectionTitle.tsx",
+        "pages/AboutPage.tsx->components/TeamMemberCard.tsx",
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/ContactForm.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.68,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/SectionTitle.tsx",
+        "pages/AboutPage.tsx->components/TeamMemberCard.tsx",
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/ContactForm.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 0.68,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/SectionTitle.tsx",
+        "pages/AboutPage.tsx->components/TeamMemberCard.tsx",
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/ContactForm.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.68,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/SectionTitle.tsx",
+        "pages/AboutPage.tsx->components/TeamMemberCard.tsx",
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/ContactForm.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.44,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/Navbar.tsx->components/icons/MenuIcon.tsx",
+        "components/Navbar.tsx->components/icons/ShieldIcon.tsx",
+        "components/Navbar.tsx->components/icons/XIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.41,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/Navbar.tsx->components/icons/MenuIcon.tsx",
+        "components/Navbar.tsx->components/icons/ShieldIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "components",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.26,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/ContactForm.tsx->components/ui/Button.tsx",
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/HeroSection.tsx->components/ui/Button.tsx",
+        "components/Navbar.tsx->components/icons/MenuIcon.tsx",
+        "components/Navbar.tsx->components/icons/ShieldIcon.tsx",
+        "components/Navbar.tsx->components/icons/XIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "app",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.24,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->components/Footer.tsx",
+        "App.tsx->components/Navbar.tsx",
+        "App.tsx->pages/AboutPage.tsx",
+        "App.tsx->pages/BlogPage.tsx",
+        "App.tsx->pages/ContactPage.tsx",
+        "App.tsx->pages/FrameworkPage.tsx",
+        "App.tsx->pages/HomePage.tsx",
+        "App.tsx->pages/ServicesPage.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.24,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx",
+        "pages/FrameworkPage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/HomePage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/UserGroupIcon.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.24,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx",
+        "pages/FrameworkPage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/HomePage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/UserGroupIcon.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.24,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx",
+        "pages/FrameworkPage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/HomePage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/UserGroupIcon.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.24,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/icons/CodeIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/ShieldIcon.tsx",
+        "pages/AboutPage.tsx->components/icons/TargetIcon.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx",
+        "pages/FrameworkPage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/HomePage.tsx->components/icons/PuzzlePieceIcon.tsx",
+        "pages/HomePage.tsx->components/icons/UserGroupIcon.tsx"
+      ]
+    },
+    {
+      "source": "components",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.21,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/Navbar.tsx->components/icons/MenuIcon.tsx",
+        "components/Navbar.tsx->components/icons/ShieldIcon.tsx",
+        "components/Navbar.tsx->components/icons/XIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "section",
+      "verb": "depends_on",
+      "strength": 0.21,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/SectionTitle.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/FrameworkPage.tsx->components/SectionTitle.tsx",
+        "pages/HomePage.tsx->components/HeroSection.tsx",
+        "pages/HomePage.tsx->components/SectionTitle.tsx",
+        "pages/ServicesPage.tsx->components/SectionTitle.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "section",
+      "verb": "depends_on",
+      "strength": 0.21,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/SectionTitle.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/FrameworkPage.tsx->components/SectionTitle.tsx",
+        "pages/HomePage.tsx->components/HeroSection.tsx",
+        "pages/HomePage.tsx->components/SectionTitle.tsx",
+        "pages/ServicesPage.tsx->components/SectionTitle.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "section",
+      "verb": "depends_on",
+      "strength": 0.21,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/SectionTitle.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/FrameworkPage.tsx->components/SectionTitle.tsx",
+        "pages/HomePage.tsx->components/HeroSection.tsx",
+        "pages/HomePage.tsx->components/SectionTitle.tsx",
+        "pages/ServicesPage.tsx->components/SectionTitle.tsx"
+      ]
+    },
+    {
+      "source": "app",
+      "target": "page",
+      "verb": "depends_on",
+      "strength": 0.18,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/AboutPage.tsx",
+        "App.tsx->pages/BlogPage.tsx",
+        "App.tsx->pages/ContactPage.tsx",
+        "App.tsx->pages/FrameworkPage.tsx",
+        "App.tsx->pages/HomePage.tsx",
+        "App.tsx->pages/ServicesPage.tsx"
+      ]
+    },
+    {
+      "source": "app",
+      "target": "pages",
+      "verb": "depends_on",
+      "strength": 0.18,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/AboutPage.tsx",
+        "App.tsx->pages/BlogPage.tsx",
+        "App.tsx->pages/ContactPage.tsx",
+        "App.tsx->pages/FrameworkPage.tsx",
+        "App.tsx->pages/HomePage.tsx",
+        "App.tsx->pages/ServicesPage.tsx"
+      ]
+    },
+    {
+      "source": "components",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.18,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/Navbar.tsx->components/icons/MenuIcon.tsx",
+        "components/Navbar.tsx->components/icons/ShieldIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "page",
+      "verb": "depends_on",
+      "strength": 0.18,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/AboutPage.tsx",
+        "App.tsx->pages/BlogPage.tsx",
+        "App.tsx->pages/ContactPage.tsx",
+        "App.tsx->pages/FrameworkPage.tsx",
+        "App.tsx->pages/HomePage.tsx",
+        "App.tsx->pages/ServicesPage.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "pages",
+      "verb": "depends_on",
+      "strength": 0.18,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/AboutPage.tsx",
+        "App.tsx->pages/BlogPage.tsx",
+        "App.tsx->pages/ContactPage.tsx",
+        "App.tsx->pages/FrameworkPage.tsx",
+        "App.tsx->pages/HomePage.tsx",
+        "App.tsx->pages/ServicesPage.tsx"
+      ]
+    },
+    {
+      "source": "contact",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 0.12,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/ContactForm.tsx->components/ui/Button.tsx",
+        "pages/ContactPage.tsx->components/ContactForm.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "contact",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.12,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/ContactForm.tsx->components/ui/Button.tsx",
+        "pages/ContactPage.tsx->components/ContactForm.tsx",
+        "pages/ContactPage.tsx->components/SectionTitle.tsx",
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "card",
+      "verb": "depends_on",
+      "strength": 0.12,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/TeamMemberCard.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/HomePage.tsx->components/ServiceCard.tsx",
+        "pages/HomePage.tsx->components/TestimonialCard.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "card",
+      "verb": "depends_on",
+      "strength": 0.12,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/TeamMemberCard.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/HomePage.tsx->components/ServiceCard.tsx",
+        "pages/HomePage.tsx->components/TestimonialCard.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "card",
+      "verb": "depends_on",
+      "strength": 0.12,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/AboutPage.tsx->components/TeamMemberCard.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/HomePage.tsx->components/ServiceCard.tsx",
+        "pages/HomePage.tsx->components/TestimonialCard.tsx"
+      ]
+    },
+    {
+      "source": "blog",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 0.09,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx"
+      ]
+    },
+    {
+      "source": "blog",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.09,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx",
+        "pages/BlogPage.tsx->components/SectionTitle.tsx"
+      ]
+    },
+    {
+      "source": "section",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 0.09,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/HeroSection.tsx->components/ui/Button.tsx"
+      ]
+    },
+    {
+      "source": "section",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.09,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx",
+        "components/HeroSection.tsx->components/ui/Button.tsx"
+      ]
+    },
+    {
+      "source": "app",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->components/Footer.tsx",
+        "App.tsx->components/Navbar.tsx"
+      ]
+    },
+    {
+      "source": "card",
+      "target": "components",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "card",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "card",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "card",
+      "target": "tsx",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/ServiceCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "section",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx"
+      ]
+    },
+    {
+      "source": "section",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/HeroSection.tsx->components/icons/ChevronRightIcon.tsx",
+        "components/HeroSection.tsx->components/icons/CodeIcon.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "blog",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/BlogPage.tsx",
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx"
+      ]
+    },
+    {
+      "source": "tsx",
+      "target": "contact",
+      "verb": "depends_on",
+      "strength": 0.06,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/ContactPage.tsx",
+        "pages/ContactPage.tsx->components/ContactForm.tsx"
+      ]
+    },
+    {
+      "source": "app",
+      "target": "blog",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/BlogPage.tsx"
+      ]
+    },
+    {
+      "source": "app",
+      "target": "contact",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "App.tsx->pages/ContactPage.tsx"
+      ]
+    },
+    {
+      "source": "blog",
+      "target": "card",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx"
+      ]
+    },
+    {
+      "source": "blog",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "blog",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "components/BlogPostCard.tsx->components/icons/ChevronRightIcon.tsx"
+      ]
+    },
+    {
+      "source": "blog",
+      "target": "section",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/BlogPage.tsx->components/SectionTitle.tsx"
+      ]
+    },
+    {
+      "source": "contact",
+      "target": "icon",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "contact",
+      "target": "icons",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/ContactPage.tsx->components/icons/LockIcon.tsx"
+      ]
+    },
+    {
+      "source": "contact",
+      "target": "section",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/ContactPage.tsx->components/SectionTitle.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "blog",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx"
+      ]
+    },
+    {
+      "source": "page",
+      "target": "contact",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/ContactPage.tsx->components/ContactForm.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "blog",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/BlogPage.tsx->components/BlogPostCard.tsx"
+      ]
+    },
+    {
+      "source": "pages",
+      "target": "contact",
+      "verb": "depends_on",
+      "strength": 0.03,
+      "confidence": "INFERRED",
+      "evidence": [
+        "pages/ContactPage.tsx->components/ContactForm.tsx"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `components` centralizes 23 files; Antithesis: `icon` pulls 12 files with 12 shared (Jaccard 0.52); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `components` centralizes 23 files; Antithesis: `icons` pulls 13 files with 13 shared (Jaccard 0.57); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `components` centralizes 23 files; Antithesis: `tsx` pulls 31 files with 23 shared (Jaccard 0.74); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `icon` centralizes 12 files; Antithesis: `icons` pulls 13 files with 12 shared (Jaccard 0.92); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `icon` centralizes 12 files; Antithesis: `tsx` pulls 31 files with 12 shared (Jaccard 0.39); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `icons` centralizes 13 files; Antithesis: `tsx` pulls 31 files with 13 shared (Jaccard 0.42); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `page` centralizes 6 files; Antithesis: `pages` pulls 6 files with 6 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "community_a": 1,
+    "community_b": 3,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: App.tsx imports components/Navbar.tsx.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 0,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: App.tsx imports pages/HomePage.tsx.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 2,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: App.tsx imports pages/ContactPage.tsx.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 2,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: components/HeroSection.tsx imports constants.ts.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 3,
+    "community_b": 2,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: components/Navbar.tsx imports constants.ts.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 3,
+    "community_b": 0,
+    "connection_type": "depends_on",
+    "explanation": "Extracted import edge crosses communities: components/TeamMemberCard.tsx imports types.ts.",
+    "strength": 0.9,
+    "confidence": "EXTRACTED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 2,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: components/BlogPostCard.tsx reaches components/ContactForm.tsx in 4 hops.",
+    "strength": 0.6,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 3,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: components/BlogPostCard.tsx reaches components/icons/MenuIcon.tsx in 4 hops.",
+    "strength": 0.6,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 3,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: components/BlogPostCard.tsx reaches components/icons/XIcon.tsx in 4 hops.",
+    "strength": 0.6,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 2,
+    "community_b": 3,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: components/ContactForm.tsx reaches components/TeamMemberCard.tsx in 4 hops.",
+    "strength": 0.6,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 2,
+    "community_b": 3,
+    "connection_type": "bridges",
+    "explanation": "Inferred cross-community bridge: components/ContactForm.tsx reaches components/icons/MenuIcon.tsx in 4 hops.",
+    "strength": 0.6,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 0,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language tsx) with no import path between community 0 (components/icons: BlogPostCard) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 1,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language tsx) with no import path between community 1 (pages) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 2,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language tsx) with no import path between community 2 (components/icons: ContactForm) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  },
+  {
+    "community_a": 3,
+    "community_b": 4,
+    "connection_type": "shares_context",
+    "explanation": "Inferred shared context (language tsx) with no import path between community 3 (components/icons: Navbar) and community 4 (orphans).",
+    "strength": 0.5,
+    "confidence": "INFERRED"
+  }
+]
