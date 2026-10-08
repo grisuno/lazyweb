@@ -6,8 +6,8 @@
 - Depends on: `components/Footer.tsx`, `components/Navbar.tsx`, `pages/AboutPage.tsx`, `pages/BlogPage.tsx`, `pages/ContactPage.tsx`, `pages/FrameworkPage.tsx`, `pages/HomePage.tsx`, `pages/ServicesPage.tsx`
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: xx/xx/xxxx Licenci
 - Language: py
 
 ## constants.ts
